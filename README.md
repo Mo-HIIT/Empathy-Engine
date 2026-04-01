@@ -1,32 +1,40 @@
 # 🎙️ VoxSentiment
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Mo-HIIT/Empathy-Engine?style=for-the-badge&logo=github&color=yellow)](https://github.com/Mo-HIIT/Empathy-Engine)
+
 > **Text-to-Speech that actually understands how you feel.**
 
 VoxSentiment is an intelligent TTS (Text-to-Speech) engine that goes beyond robotic voice synthesis. It detects emotions in your text and automatically adjusts the speech output—modulating pitch, speed, volume, and pauses to match the emotional tone.
 
 Whether it's excitement, sadness, curiosity, or confidence, VoxSentiment makes your text sound genuinely human.
 
+![Demo](https://img.shields.io/badge/🎧-Try%20It%20Now-brightgreen?style=for-the-badge)
+
 ---
 
 ## ✨ What Makes It Special?
 
 ### 🎭 12 Emotion States
+
 Unlike typical TTS systems that speak in monotone, VoxSentiment recognizes and vocalizes **12 distinct emotional states**:
 
-| Emotion | How it sounds |
-|---------|---------------|
-| 😊 Happy | Upbeat, faster tempo, higher pitch |
-| 😢 Melancholy | Slow, soft, gentle pauses |
-| 😠 Furious | Fast, loud, sharp emphasis |
-| 😲 Shocked | Quick, raised pitch, energetic |
-| 😰 Anxious | Hurried, tense, quieter |
-| 🤢 Disgusted | Slow, lower tone, assertive |
-| 🤔 Curious | Rising intonation, questioning |
-| 💕 Empathetic | Warm, measured, comforting |
-| 🤩 Excited | Very fast, high pitch, loud |
-| 😴 Bored | Slow, soft, drawn-out pauses |
-| 💪 Confident | Steady, clear, authoritative |
-| 😌 Calm | Neutral, balanced, relaxed |
+| 😊 Emotion | 🎵 How It Sounds |
+|:----------:|:----------------|
+| **Happy** | Upbeat, faster tempo, higher pitch |
+| **Melancholy** | Slow, soft, gentle pauses |
+| **Furious** | Fast, loud, sharp emphasis |
+| **Shocked** | Quick, raised pitch, energetic |
+| **Anxious** | Hurried, tense, quieter |
+| **Disgusted** | Slow, lower tone, assertive |
+| **Curious** | Rising intonation, questioning |
+| **Empathetic** | Warm, measured, comforting |
+| **Excited** | Very fast, high pitch, loud |
+| **Bored** | Slow, soft, drawn-out pauses |
+| **Confident** | Steady, clear, authoritative |
+| **Calm** | Neutral, balanced, relaxed |
 
 ### 🎯 Smart Intensity Detection
 The system doesn't just detect emotions—it measures **how intense they are**:
